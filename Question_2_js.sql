@@ -11,10 +11,10 @@ SELECT namegiven, namelast, height AS shortest_height, name AS team, g_all
 FROM people
 LEFT JOIN appearances USING (playerid)
 LEFT JOIN teams USING (teamid)
-WHERE height = (SELECT MIN(height)
+WHERE height = (SELECT MIN(height) 
 				FROM people)
-ORDER BY shortest_height
-LIMIT 1;
+GROUP BY namegiven, namelast, height, name, g_all
+ORDER BY shortest_height;
 
 ----------------------------------------------------
 --ANSWER: Player: Edward Carl "Eddie" Gaedel, 43" tall (3'7")) Team - St. Louis Browns, Games Played = 1,    
