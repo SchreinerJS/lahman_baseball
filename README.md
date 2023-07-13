@@ -1,3 +1,7 @@
+This was a project that I completed as part of a group with Richard Leonard and Chernase Saka. I am in process of updating the files in my repository to include only the scripts and work that I created or am updating, though we did work collaboratively on some questions and to navigate hurdles, I will also include scripts from other classmates in an "additional teamwork" file, with attribution notes.
+
+
+
 ## Lahman Baseball Database Exercise
 - this data has been made available [online](http://www.seanlahman.com/baseball-archive/statistics/) by Sean Lahman
 - you can find a data dictionary [here](http://www.seanlahman.com/files/database/readme2016.txt)
